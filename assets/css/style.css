@@ -7,7 +7,7 @@
 
 html{
     font-size: 10px;
-    font-family: 'Roboto' sans-serif  !important;
+    font-family: 'Roboto'   !important;
     color: #eee;
 }
 
@@ -259,7 +259,7 @@ user-select: none;
     font-weight: 300;
 }
 
-.profile-img
+.portfolio-img
 {
     flex: 1;
     margin-right: 5rem;
