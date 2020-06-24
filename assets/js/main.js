@@ -4,7 +4,7 @@ $(document).ready(function () {
         $('.top-nav').toggleClass('open');
     });
 
-    $('.top-nav .nav-link').on('click', function(){
+    $('.top-nav .nav-link').on('click', function() {
         $('.menu-toggler').removeClass('open');
         $('.top-nav').removeClass('open');
     });
@@ -16,10 +16,13 @@ $(document).ready(function () {
         });
 
 
-        $('#up').on('click', function(){
-            $('html, body').animate({
-                scrollTop:0
-            }, 2000);        
+        $('#up').on('click', function() {
+           $('html, body').animate(
+               {
+                   scrollTop:0
+               }, 2000);
+
+                  
         });
 
     });
