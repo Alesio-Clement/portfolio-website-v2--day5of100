@@ -112,7 +112,10 @@ header{
     position: fixed;
     top: -100vh;
     z-index: 50;
-    background-color: #16162d;
+    background-image:url('../images/11.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition:  all 650ms cubic-bezier(1,0,0,1);
@@ -165,7 +168,7 @@ background: linear-gradient(to top, #ffe838, #fd57bf);
     transition: transform 650ms ease-out;
 }
 
-.menu-toggler.top-nav.open{
+.menu-toggler.open{
     transform: rotate(-45deg);
 }
 
