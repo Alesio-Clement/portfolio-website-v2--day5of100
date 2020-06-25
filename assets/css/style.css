@@ -315,6 +315,10 @@ padding: 2rem;
     margin: 2rem -2px 2rem 0;
 }
 
+.skill p{
+   
+    text-align: justify;
+}
 .icon-container{
     width: 10rem;
     height: 10rem;
@@ -332,6 +336,9 @@ padding: 2rem;
    margin: auto;
    transform: rotate(-45deg); 
 }
+
+
+
 /* SERVICES SECTION END */
 
 
@@ -369,7 +376,7 @@ padding: 2rem;
 
 }
 
-.portfolio-description h6{
+.portfolio-description h1{
     font-size: 1.5rem;
     text-transform: uppercase;
     opacity: 0.3;
@@ -397,7 +404,6 @@ padding: 2rem;
 
 /* EXPERIENCE STARTS */
 .timeline ul{
-    border-left: 4px solid #ffe838;
     border-radius: .8rem;
     background-color: rgba(0, 0, 0, 0.05);  
     margin: 0 auto;
@@ -417,44 +423,7 @@ padding: 2rem;
     opacity: .3;
 }
 
-.timeline .date{
-    border-bottom: 1px solid  rgba(255, 255, 255, 0.1);
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
-    position: relative;
-}
 
-.timeline .date:last-of-type{
-    padding-bottom: 0 ;
-    margin-bottom: 0;
-    border: none;
-}
-
-.timeline .date::before,
-.timeline .date::after{
-    position: absolute;
-    display: block;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.timeline .date::before{
-    content: attr(data-date);
-    left: -21rem;
-    text-align: right;
-    min-width: 12rem;
-    font-weight: 1.5rem;
-}
-
-.timeline .date::after{
-    content: '';
-    box-shadow: 0 0 0 4px #fd57bf;
-    border-radius: 100%;
-    left: -8rem;
-    height: 1.5rem;
-    width: 1.5rem;
-    background-color: #313534;
-}
 /* EXPERIENCE ENDS */
 
 
@@ -477,7 +446,7 @@ select,
 textarea{
     width: 100%;
     padding: 1rem;
-    margin-bottom: 5px;
+    margin-bottom: 1.5rem;
     border: none;
     outline-color: #fd57bf;
 }
@@ -629,13 +598,7 @@ background-color: #ffe838;
     }
 
 
-    .timeline .date::before{
-        left: -20rem;
-    }
-
-    .timeline .date::after{
-        left: -5.9rem;
-    }
+   
 }
 
 
@@ -685,10 +648,6 @@ background-color: #ffe838;
         font-size: 1.6rem;
     }
 
-    .timeline .date::before{
-        font-size: 1.4rem;
-    }
-
 
     form{
         width: 100%;
@@ -699,3 +658,60 @@ background-color: #ffe838;
         right: 2rem;
     }
 }
+
+.date{
+    margin-bottom: 2rem;
+}
+
+
+#myProgress {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #fff;
+  }
+  
+  #myBar {
+    width: 95%;
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+  }
+
+  #myBar1 {
+    width: 80%;
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+  }
+
+
+  #myBar2 {
+    width: 70%;
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+  }
+
+  #myBar3 {
+    width: 60%;
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+  }
+
+  #myBar4 {
+    width: 80%;
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+  }
