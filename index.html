@@ -8,7 +8,7 @@
     
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-7/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
    
 </head>
 <body>
@@ -36,8 +36,8 @@
 
 <div class="landing-text" >
    
-    <h1>Hi, Am Alesio Clement</h1>
-    <h6>Developer and Enterprenuer</h6>
+    <h1>I am <span class="type"></span> </h1>
+   
 </div>
 </header>
 
@@ -239,6 +239,7 @@
 
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/typed.min.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="assets/js/particles.min.js"></script>
 <script src="assets/js/app.js"></script>        
@@ -249,6 +250,16 @@ AOS.init({
     duration: 1800
 });
 </script>
-
+<script>
+var typed = new Typed('.type', {
+  strings: [
+       'a Software Developer.',
+       'a Designer.',
+       'an Enterprenur.'],
+    typeSpeed:70,
+    loop:true
+  
+});
+</script>
 </body>
 </html>
