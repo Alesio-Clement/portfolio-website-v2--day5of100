@@ -628,8 +628,6 @@ background-color: #ffe838;
         margin: 0 0 0 auto;
     }
 
-
-   
 }
 
 
@@ -645,6 +643,7 @@ background-color: #ffe838;
 
     .nav-link{
         font-size: 3.5rem;
+        text-align: center;
     }
 
     .skill
@@ -748,3 +747,23 @@ background-color: #ffe838;
     line-height: 30px;
     color: white;
   }
+
+  #particles-js {
+    display:block;
+    -webkit-transform:scale(1);
+    -ms-transform:scale(1);
+    transform:scale(1);
+    opacity:1;
+    -webkit-transition:opacity .8s ease,-webkit-transform 1.4s ease;
+    transition:opacity .8s ease, transform 1.4s ease;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:cover;
+   }
