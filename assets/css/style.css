@@ -366,6 +366,10 @@ padding: 2rem;
     margin: 0px 3rem 0px 0px;
    flex: 1; 
 }
+.profile-img img{
+    
+    max-width: 500px;
+}
 
 .portfolio-description
 {
